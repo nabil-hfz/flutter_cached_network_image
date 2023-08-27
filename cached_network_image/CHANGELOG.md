@@ -3,6 +3,11 @@
 * Use loadImage instead loadBuffer and load
 * Use ImageDecoderCallback with ImageProvider.loadImage instead of DecoderBufferCallback
 * Add topics
+* Specify types
+* Add error to ErrorListener
+* Update example
+* Use `loadImage` instead `loadBuffer`
+* Remove [`load`](https://github.com/flutter/flutter/pull/132679)
 
 ## [3.2.3] - 2022-11-25
 * Correctly dispose image stream handler
