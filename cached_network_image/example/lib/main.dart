@@ -9,8 +9,8 @@ void main() {
   runApp(
     BaseflowPluginExample(
       pluginName: 'CachedNetworkImage',
-      githubURL: 'https://github.com/Baseflow/flutter_cache_manager',
-      pubDevURL: 'https://pub.dev/packages/flutter_cache_manager',
+      githubURL: 'https://github.com/Baseflow/flutter_cached_network_image',
+      pubDevURL: 'https://pub.dev/packages/cached_network_image',
       pages: [
         BasicContent.createPage(),
         ListContent.createPage(),
@@ -115,7 +115,6 @@ class BasicContent extends StatelessWidget {
                 placeholder: (context, url) =>
                     const CircularProgressIndicator(),
                 errorWidget: (context, url, error) => const Icon(Icons.error),
-                fadeOutDuration: const Duration(seconds: 1),
                 fadeInDuration: const Duration(seconds: 3),
               ),
             ),
