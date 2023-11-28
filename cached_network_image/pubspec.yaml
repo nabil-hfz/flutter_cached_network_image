@@ -8,7 +8,7 @@ topics:
   - network-image
 version: 3.3.0
 environment:
-  sdk: ^2.19.2
+    sdk: '>=2.19.2 <4.0.0'
   # flutter: '>=3.10.0'
 
 dependencies:
